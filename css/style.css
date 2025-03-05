@@ -1,0 +1,78 @@
+.nav {
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar-brand {
+    padding-top:15px;
+    font-family: 'Lato', sans-serif;
+
+  }
+
+/*
+.nav.navbar-nav a {
+padding-top:20px;
+padding-bottom:20px;
+}
+*/
+
+.jumbotron h1 {
+    /*text-transform: uppercase;*/
+    font-size: 35px;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
+.jumbotron h3 {
+    font-size: 18px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+}
+
+.fullwidthimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width: 1000px;
+}
+
+/*.table th, .table td {
+     border-top: none !important;
+ }*/
+
+td {
+  padding: 3px;
+}
+
+body {
+font-family: 'PT Sans', sans-serif;
+font-size: 12pt;
+padding-top: 37px;
+background-color:#ececec;
+}
+
+h1 {
+  font-family: 'Palatino', sans-serif;
+  color: #232323;
+  font-weight: bold;
+  font-size:40px;
+}
+h2 {
+  font-family: 'Palatino', sans-serif;
+  color: #c9000e;
+}
+h3 {
+  text-align: center;
+  font-family: 'Palatino', sans-serif;
+  
+}
+
