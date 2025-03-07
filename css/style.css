@@ -57,22 +57,32 @@ body {
 font-family: 'PT Sans', sans-serif;
 font-size: 12pt;
 padding-top: 37px;
-background-color:#ececec;
+color: aliceblue;
+background-color:#303346;
 }
 
 h1 {
-  font-family: 'Palatino', sans-serif;
-  color: #200e11;
+  font-family: 'Helvetica', sans-serif;
+  color: #ffb700;
   font-weight: bold;
   font-size:40px;
 }
 h2 {
-  font-family: 'Palatino', sans-serif;
-  color: #005262;
+  font-family: 'Helvetica', sans-serif;
+  color: #00a362;
 }
 h3 {
   text-align: center;
   font-family: 'Palatino', sans-serif;
   
+}
+
+a {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#00a362;
 }
 
