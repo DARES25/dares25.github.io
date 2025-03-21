@@ -21,6 +21,25 @@ padding-bottom:20px;
     text-align: center;
 }
 
+
+#headparent {
+    display: flex;
+    width: 100%;
+}
+
+#toplogo {
+    margin-top: 25px;
+}
+
+
+#headpane {
+    flex: 1;
+}
+
+.conflogo {
+    text-align: right;
+}
+
 .jumbotron h2 {
     font-size: 27px;
     text-align: center;
@@ -30,6 +49,11 @@ padding-bottom:20px;
     font-size: 18px;
     text-align: left;
 }
+
+.subtitle {
+    width: 80%;
+}
+
 
 h3 {
     font-size: 18px;
