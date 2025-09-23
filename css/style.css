@@ -19,6 +19,7 @@ padding-bottom:20px;
     /*text-transform: uppercase;*/
     font-size: 35px;
     text-align: center;
+    color: #338a78; /* deep teal to match h1 and accent colors */
 }
 
 
@@ -29,6 +30,17 @@ padding-bottom:20px;
 
 #toplogo {
     margin-top: 25px;
+    border-radius: 12px;         /* rounded corners */
+    
+    background: #f4f6f8;         /* light background behind logo */
+    padding: 8px;                /* space around logo */
+    transition: transform 0.2s;  /* smooth hover effect */
+}
+
+#toplogo:hover {
+    transform: scale(1.1);      /* slight zoom on hover */
+    
+    border-color: #338a78;       /* accent border on hover */
 }
 
 
@@ -56,7 +68,7 @@ padding-bottom:20px;
 
 
 h3 {
-    font-size: 18px;
+    font-size: 19px;
     font-style: italic;
     text-align: left;
 }
@@ -78,35 +90,60 @@ td {
 }
 
 body {
-font-family: 'PT Sans', sans-serif;
-font-size: 13pt;
-padding-top: 37px;
-color: aliceblue;
-background-color:#303339;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13pt;
+    padding-top: 37px;
+    color: #222831; /* dark slate for text */
+    background-color: #f4f6f8; /* light neutral background */
 }
 
 h1 {
-  font-family: 'Helvetica', sans-serif;
-  color: #ffb700;
-  font-weight: bold;
-  font-size:40px;
+    font-family: 'Helvetica', sans-serif;
+    color: #123955; /* deep teal */
+    font-weight: bold;
+    font-size: 40px;
 }
+
 h2 {
-  font-family: 'Helvetica', sans-serif;
-  color: #09a356; 
+    font-family: 'Helvetica', sans-serif;
+    color: #205072; /* muted blue */
 }
+
 h3 {
-  text-align: center;
-  font-family: 'Palatino', sans-serif;
-  
+    text-align: center;
+    font-family: 'Palatino', sans-serif;
+    color: #495464; /* soft gray-blue */
 }
 
 a {
-  color: aquamarine;
-  text-decoration: underline;
+    color: #1565c0; /* professional blue */
+    text-decoration: underline;
 }
 
 a:hover {
-  color:#00a362;
+    color: #2a7f62; /* matches h1 accent */
+}
+
+/* Optional: update jumbotron for a subtle highlight */
+.jumbotron {
+    background: linear-gradient(90deg, #d0ece7 0%, #a3cef1 100%);
+    color: #222831;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+}
+
+.navbar-inverse {
+    background: linear-gradient(90deg, #205072 0%, #2a7f62 100%);
+    border-color: #205072;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: #f4f6f8 !important; /* light text for contrast */
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffe082 !important; /* gold accent on hover */
 }
 
