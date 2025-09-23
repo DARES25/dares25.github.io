@@ -68,7 +68,7 @@ padding-bottom:20px;
 
 
 h3 {
-    font-size: 19px;
+    font-size: 18px;
     font-style: italic;
     text-align: left;
 }
@@ -94,7 +94,7 @@ body {
     font-size: 13pt;
     padding-top: 37px;
     color: #222831; /* dark slate for text */
-    background-color: #f4f6f8; /* light neutral background */
+    background-color: hsl(0, 0%, 93%); /* light neutral background */
 }
 
 h1 {
