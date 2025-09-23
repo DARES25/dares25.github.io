@@ -133,8 +133,8 @@ a:hover {
 }
 
 .navbar-inverse {
-    background: linear-gradient(90deg, #205072 0%, #2a7f62 100%);
-    border-color: #205072;
+    background: linear-gradient(90deg, #123955 0%, #205072 100%); /* darker blue gradient */
+    border-color: #123955;
 }
 
 .navbar-inverse .navbar-brand,
