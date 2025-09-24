@@ -40,7 +40,7 @@ padding-bottom:20px;
     margin-top: 25px;
     border-radius: 12px;         /* rounded corners */
     
-    background: hsl(0, 0%, 93%);         /* light background behind logo */
+    background: hsl(0, 0%, 96%);         /* light background behind logo */
     padding: 8px;                /* space around logo */
     transition: transform 0.2s;  /* smooth hover effect */
 }
