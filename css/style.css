@@ -1,3 +1,11 @@
+/* Old Trusty Red, White, and Blue Palette */
+:root {
+    --trusty-blue: #19376d;      /* darker blue */
+    --trusty-white: #f5f5f5;
+    --trusty-red: #b22234;
+    --trusty-dark: #222831;
+}
+
 .nav {
     text-transform: uppercase;
     font-family: 'PT Sans', sans-serif;
@@ -95,7 +103,7 @@ body {
     font-size: 13pt;
     padding-top: 37px;
     color: #222831; /* dark slate for text */
-    background-color: hsl(0, 0%, 93%); /* light neutral background */
+    background-color: #f5f5f5; /* lighter, whiter background */
 }
 
 h1 {
@@ -127,24 +135,41 @@ a:hover {
 
 /* Optional: update jumbotron for a subtle highlight */
 .jumbotron {
-    background: linear-gradient(90deg, #d0ece7 0%, #a3cef1 100%);
-    color: #222831;
+    background: var(--trusty-white);
+    color: var(--trusty-dark);
     border-radius: 8px;
     padding: 2rem 1rem;
 }
 
 .navbar-inverse {
-    background: linear-gradient(90deg, #123955 0%, #205072 100%); /* darker blue gradient */
-    border-color: #123955;
+    background: linear-gradient(90deg, var(--trusty-blue) 0%, var(--trusty-red) 100%);
+    border-color: var(--trusty-dark);
 }
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav > li > a {
-    color: #f4f6f8 !important; /* light text for contrast */
+    color: var(--trusty-white) !important;
+    font-weight: bold;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #ffe082 !important; /* gold accent on hover */
+    color: var(--trusty-red) !important;
+}
+
+/* Title colors */
+h1,
+.jumbotron h1 {
+    color: var(--trusty-blue);
+}
+
+/* Link colors */
+a {
+    color: var(--trusty-blue);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--trusty-red);
 }
 
