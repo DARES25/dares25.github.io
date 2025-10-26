@@ -173,3 +173,9 @@ a:hover {
     color: var(--trusty-red);
 }
 
+th {
+    /*background-color: var(--trusty-blue);
+    color: var(--trusty-white);*/
+    font-weight: normal;
+    font-style: italic;
+}
