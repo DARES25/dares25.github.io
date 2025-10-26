@@ -179,3 +179,8 @@ th {
     font-weight: normal;
     font-style: italic;
 }
+
+.no-wrap-col {
+    white-space: nowrap; /* Prevents text from wrapping */
+    width: 1px;          /* Suggests the narrowest possible width */
+}
